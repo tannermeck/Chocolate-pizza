@@ -12,11 +12,7 @@ main {
 
 header {
     background-color: #A2D7D2;
-    height: 110px;
-    padding: 0 30px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+    
 }
 
 header img {
