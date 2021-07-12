@@ -4,21 +4,34 @@ body {
     background-color: #FFFCFA;
     display: grid;
     grid-template-rows: auto 1fr auto;
+    margin: 100px;
 }
-
+#food-logo {
+    height: 50px;
+    width: 50px;
+    
+}
 main {
     padding: 30px;
 }
 
 .logo-right { 
     display: flex;
-justify-content: right;
+    justify-content: right;
 
 }
 header {
     background-color: #A2D7D2;
-    
-    
+    display: flex;
+    flex-direction: row;
+}
+.header-left {
+    display: flex;
+    flex-direction: row;
+}
+.logo-right img {
+    width: 25px;
+    height: 25px;
 }
 
 header img {
