@@ -10,8 +10,14 @@ main {
     padding: 30px;
 }
 
+.logo-right { 
+    display: flex;
+justify-content: right;
+
+}
 header {
     background-color: #A2D7D2;
+    
     
 }
 
