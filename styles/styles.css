@@ -24,11 +24,25 @@ header {
     background-color: #A2D7D2;
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    width: 75%;
+
 }
 .header-left {
     display: flex;
+    flex-direction: column;
+    align-self: left !important;
+       
+} 
+
+.outer-div {
+ 
+    display: flex;
     flex-direction: row;
+    
+
 }
+
 .logo-right img {
     width: 25px;
     height: 25px;
