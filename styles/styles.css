@@ -7,7 +7,7 @@ body {
     margin: 100px;
 }
 #food-logo {
-    height: 50px;
+    height: 100px;
     width: 50px;
     
 }
@@ -18,10 +18,10 @@ main {
 .logo-right { 
     display: flex;
     justify-content: right;
+    align-items: center;
 
 }
 header {
-    background-color: #A2D7D2;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -32,15 +32,14 @@ header {
     display: flex;
     flex-direction: column;
     align-self: left !important;
-       
 } 
-
+.header-left h1 {
+    font-family: cursive;
+    font-size: 30px;
+}
 .outer-div {
- 
     display: flex;
     flex-direction: row;
-    
-
 }
 
 .logo-right img {
@@ -61,4 +60,28 @@ h1 {
 footer {
     background-color: #FAF0EA;
     padding: 10px;
+}
+#subtitle {
+    display:flex;
+    flex-direction: column;
+}
+#print-icon {
+    display: flex;
+    flex-direction: row;
+}
+.image-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#print-icon {
+    height: 20px;
+    font-size: 15px;
+    color: gray;
+    margin-right: 100px;
+    padding-right: 200px;
+}
+#share-recipe {
+    border: 1px solid brown;
+    
 }
