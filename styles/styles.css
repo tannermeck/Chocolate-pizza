@@ -27,6 +27,8 @@ header {
     justify-content: space-between;
     width: 75%;
 
+    
+
 }
 .header-left {
     display: flex;
@@ -74,6 +76,13 @@ footer {
     flex-direction: row;
     justify-content: space-between;
 }
+.recipe-section {
+
+    background-image: url("https://raw.githubusercontent.com/alchemycodelab/foundations-i-june-2021/main/curriculum/10-review-day/LAB-10/LAB-10a-CHOCOLATE-PIZZA/lab-assets/list-bg.png?token=ATZTYI6WZROV5ITLMFVP5VDA6YG26");
+
+}
+
+
 #print-icon {
     height: 20px;
     font-size: 15px;
@@ -83,5 +92,25 @@ footer {
 }
 #share-recipe {
     border: 1px solid brown;
+    width: 110px;
+    align-items: center;
+    color: white;
+    background-color: brown;
+    display: flex; 
+    justify-content: space-between;
+}
+
+.profile {
+    display: flex;
+    justify-content: space-between;
     
+    
+
+}
+
+article {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
